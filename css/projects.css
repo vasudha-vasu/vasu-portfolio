@@ -1,0 +1,222 @@
+:root {
+    --primary-color: #f9532d;
+    --primary-dark: #1F252E;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+
+
+.container {
+    padding: 0 8.4rem;
+}
+ .para{
+    font-size: 18px;
+ 
+   text-align: left;}
+
+
+
+ .para2{
+    font-size: 18px;
+    text-align: left;
+} 
+
+
+.project{
+margin-top: 40px;
+}
+
+
+/* <img src="images/tindog.png" alt="">
+            
+<h2 class="p1">Tindog</h2>
+<p class="para">Meet new and interesting dogs nearby. Find the True Love of Your Dog's Life Today. We have all the dogs, the greatest dogs.Find the love of your dog's life or your money back.</p>
+ 
+
+
+
+<img src="images/cinema'.png" alt="" class="proimg">
+
+<h2 class="p1">Cinema Dudes</h2>
+<p class="para2">Meet new and interesting dogs nearby. Find the True Love of Your Dog's Life Today. We have all the dogs, the greatest dogs.Find the love of your dog's life or your money back.</p>
+  */
+
+.img2{
+    width: 140px;
+}
+
+.p1{
+    margin-top: 14px;
+   
+}
+
+.proj1{
+    margin-left: -130px;
+   
+}
+
+.proj2{
+    margin-right: -130px;
+}
+.proj3{
+    margin-left: -270px;
+}
+
+.proj4{
+    margin-right: -270px;
+}
+
+
+
+/* footer  */
+
+.footicon{
+    font-size:2.5em;
+   padding: 0 50px;
+   margin-top: 100px;
+color: gray;
+margin-bottom: 40px;
+    }
+
+    .footicon:hover{
+        color: whitesmoke;
+    }
+
+footer .footicon,
+footer .bxl-youtube,
+footer .bxl-instagram {
+    font-size: 2rem; /* Adjust size as needed */
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+footer .bxl-youtube {
+    color: #FF0000; /* YouTube red */
+}
+
+footer .bxl-instagram {
+    background: linear-gradient(45deg, #fdc468, #df4996 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+    /* media queries  */
+
+@media screen and (min-width:601px){
+    hr{display: none;}
+
+}
+
+    @media screen and (max-width: 1200px) {
+        .footicon {
+          padding: 0 8px;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .footicon{
+          
+display: none;
+  
+        }
+
+
+hr{
+    width: 250px;
+}
+
+          .proj1{
+            margin-left: -10px;
+            text-align: center;
+         
+           
+        }
+
+        .para{
+            font-size: 15px;
+            margin-right: -90px;
+            margin-left: -70px;
+        }
+
+        .proj2{
+            margin-right: 2%;
+            margin-top: 70px;
+            text-align: center;
+        }
+.img2{
+    margin-left: 17%;
+}
+
+.image2{
+    padding-right: 18px;
+}
+
+        .p1{
+            margin-right: -20px;
+        }
+        .para2{
+            font-size: 15px;
+            margin-right: -90px;
+            margin-left: -75px;
+        }
+
+        .proj3{
+           padding-left: 140px;
+           width: fit-content;
+           text-align: left;
+        }
+
+        .img3{
+            padding-right: 20px;
+        }
+
+        .para3{
+            margin-left: -70px;
+            margin-right: -90px;
+            font-size: 15px;
+            
+        }
+.p3{
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: -50px;
+}
+        .proj4{
+            margin-left: -110px;
+            margin-right: auto;
+            font-size: 15px;
+            
+        }
+.p4{
+    text-align: center;
+    margin-right: -20px;
+    margin-top: 10px;
+}
+        .para4{
+            margin-left: -90px;
+            margin-right: -120px;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .hr{
+            width: 250px;
+            margin-left: -30px;
+        }
+
+        .lasthr{
+            margin-left: -130px;
+            width: 260px;
+            
+        }
+
+.img4{
+    padding-right: 46px;
+}
+
+      }
